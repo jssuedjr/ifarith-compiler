@@ -1,0 +1,4 @@
+(cond [3 (print 1)]
+      [(+ 2 3) (print 2)]
+      [(* 5 (+ 2 -2)) (let* ([x 1]) (print (+ x 1)))]
+      [else (print 4)])

@@ -1,0 +1,2 @@
+((mov-lit r0 0)
+ (print r0))

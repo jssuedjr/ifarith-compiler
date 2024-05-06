@@ -1,0 +1,5 @@
+(let* ([x true]
+       [y false]
+       [z (not y)]
+       [a (not z)])
+  (not a))
